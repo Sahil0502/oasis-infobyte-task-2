@@ -1,10 +1,6 @@
 body{
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) no-repeat center/cover;
-    border-style: solid;
-    border-color: rgb(138, 160, 95);
+    background: linear-gradient(to right,rgb(243, 255, 192),rgb(235, 135, 215)) no-repeat center/cover;
     padding: 100px;
-    box-shadow: h-offset v-offset blur spread color inset ; 
-    box-shadow: 5px 10px 10px 10px orange inset; 
 }
 img{
     width: 30%;
@@ -23,19 +19,15 @@ fieldset{
     margin: 50px;
     border-radius: 4px;
     border-style: solid;
-    border-color: rgb(111, 111, 11);
+    border-color: rgb(95, 160, 159);
      
 }
-legend{
-    color: aquamarine;
+h1,h2{
     text-align: center;
-    text-decoration: double;
-}
-h1{
-    text-align: center;
-    color: aquamarine;
+    color: rgb(138, 127, 255);
+    box-sizing: border-box;
 }
 p{
     text-align: center;
-    color: red;
+    color: rgb(255, 64, 0);
 }
